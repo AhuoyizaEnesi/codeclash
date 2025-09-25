@@ -1,3 +1,5 @@
+// mock into web mode
+
 import React, { useState, useEffect } from 'react';
 import { 
   Search, Users, Trophy, Zap, Target, 
