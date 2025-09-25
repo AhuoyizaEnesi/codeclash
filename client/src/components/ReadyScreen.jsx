@@ -1,3 +1,4 @@
+// display screen
 import React, { useState, useEffect } from 'react';
 import { Trophy, Zap, Clock, Users, Coins } from 'lucide-react';
 import Avatar from './ui/Avatar';
