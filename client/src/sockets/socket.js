@@ -1,3 +1,5 @@
+// socket.io
+
 import { io } from 'socket.io-client';
 
 class GameSocket {
