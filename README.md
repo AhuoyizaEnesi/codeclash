@@ -1,4 +1,4 @@
-# CodeClash
+# CodeClash⚡
 
 **Real-Time Competitive Programming Platform**
 
