@@ -1,8 +1,4 @@
-/**
- * User Controller
- * File: server/controllers/userController.js
- * Handles user-related database operations
- */
+
 
 const { User } = require('../models');
 
