@@ -9,7 +9,6 @@ const authRoutes = require("./routes/authRoutes");
 const userRoutes = require("./routes/userRoutes");
 const gameRoutes = require("./routes/gameRoutes");
 
-
 const app = express();
 const server = http.createServer(app);
 
