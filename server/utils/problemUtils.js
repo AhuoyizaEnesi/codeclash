@@ -1,3 +1,5 @@
+// test on difficulty
+
 const fs = require('fs');
 const path = require('path');
 
