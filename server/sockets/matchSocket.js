@@ -1,4 +1,4 @@
-// Store matches in memory (matchCode -> [sockets])
+// Store match in memory (matchCode -> [sockets])
 const { runJudge0 } = require("../utils/judge0Helper");
 const matchRooms = {};
 const matchData = {};
