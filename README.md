@@ -1,93 +1,130 @@
-# CodeClash⚡
+# CodeClash
 
-**LeetCode Battles. Real-Time Duels.**
+**Real-Time Competitive Programming Platform**
 
-Turn interview prep into competitive sport. Battle friends on LeetCode problems, climb the ranks, and become a coding legend.
+CodeClash transforms coding interview preparation into an engaging competitive experience. Challenge peers in real-time LeetCode problem-solving battles, track your progress through ranking systems, and build coding skills through gamified learning.
+
+## Overview
+
+CodeClash is a competitive programming platform designed to make coding practice more engaging and social. Users can participate in head-to-head coding battles, track their skill progression through a comprehensive ranking system, and compete on global leaderboards.
 
 ## Features
 
-- **Real-time 1v1 battles** - Race to solve coding problems first
-- **Email & Google OAuth** - Multiple authentication options  
-- **Profile setup** - Customize avatar, skills, and goals
-- **Ranking system** - Bronze to Grandmaster progression
-- **Leaderboards** - Compete with the community
-- **Modern UI** - Clean, responsive design with Tailwind CSS
+### Core Functionality
+- **Real-Time Battles**: Engage in live 1v1 coding competitions with synchronized problem solving
+- **Authentication System**: Secure login via email registration or Google OAuth integration
+- **User Profiles**: Customizable profiles with avatar selection, skill tracking, and goal setting
+- **Ranking System**: Progressive skill-based ranking from Bronze to Grandmaster tiers
+- **Global Leaderboards**: Community-wide competition tracking and statistics
+- **Responsive Design**: Modern, clean interface built with Tailwind CSS
 
-## Tech Stack
+## Technology Stack
 
-**Frontend:**
-- React 18 with modern hooks
-- Tailwind CSS for styling
-- Socket.io for real-time features
-- Lucide React for icons
+### Frontend
+- **React 18**: Modern React with hooks and functional components
+- **Tailwind CSS**: Utility-first CSS framework for responsive design
+- **Socket.io Client**: Real-time bidirectional communication
+- **Lucide React**: Comprehensive icon library
 
-**Backend:**
-- Node.js with Express
-- Socket.io for WebSocket connections
-- JWT authentication (14-day tokens)
-- bcryptjs for password hashing
+### Backend
+- **Node.js**: JavaScript runtime environment
+- **Express.js**: Web application framework
+- **Socket.io**: WebSocket implementation for real-time features
+- **JWT**: JSON Web Token authentication with 14-day token expiration
+- **bcryptjs**: Password hashing and security
 
-**Planned:**
-- PostgreSQL database
-- Judge0 API for code execution
-- Monaco Editor for coding interface
+### Planned Integrations
+- **PostgreSQL**: Relational database for data persistence
+- **Judge0 API**: Code execution and testing environment
+- **Monaco Editor**: Advanced code editing interface
 
-## Quick Start
+## Installation
 
 ### Prerequisites
-- Node.js 16+
-- npm 8+
+- Node.js version 16 or higher
+- npm version 8 or higher
 
-### Installation
+### Setup Instructions
 
-1. **Clone the repository**
+1. **Clone the Repository**
    ```bash
    git clone https://github.com/your-username/Code-Clash.git
    cd Code-Clash
+   ```
 
-2. **Install dependencies**
+2. **Install Root Dependencies**
    ```bash
-   Install root dependencies
    npm install
+   ```
 
-3. **Install frontend dependencies**
+3. **Install Frontend Dependencies**
    ```bash
-   cd client && npm install
+   cd client
+   npm install
+   ```
 
-4. **Install backend dependencies**
-    ```bash
-    cd ../server && npm install
+4. **Install Backend Dependencies**
+   ```bash
+   cd ../server
+   npm install
+   ```
 
-**Environment setup**
+### Environment Configuration
 
-***Client environment***
- - cp client/.env.example
- -  client/.env.local
+#### Client Environment Variables
+```bash
+cp client/.env.example client/.env.local
+```
 
-***Server environment***  
- - cp server/.env.example
- - server/.env
+#### Server Environment Variables
+```bash
+cp server/.env.example server/.env
+```
 
-**Start development servers**
+### Development Server
 
-From root directory, `npm run dev` starts:
-- ***Frontend:*** http://localhost:3000
+From the root directory, start both servers:
+```bash
+npm run dev
+```
 
-- ***Backend:*** http://localhost:3001
+This will launch:
+- **Frontend**: http://localhost:3000
+- **Backend**: http://localhost:3001
 
-**Available Scripts**
-***Root directory:***
+## Available Scripts
 
-`npm run dev` - Start both frontend and backend
-`npm run client` - Start frontend only
-`npm run server` - Start backend only
+### Root Directory
+- `npm run dev` - Start both frontend and backend servers
+- `npm run client` - Start frontend server only
+- `npm run server` - Start backend server only
 
-Frontend (client/):
+### Frontend (client/)
+- `npm start` - Start React development server
+- `npm run build` - Create production build
 
-`npm start` - Start React development server
-`npm run build` - Build for production
+### Backend (server/)
+- `npm run dev` - Start server with nodemon (auto-restart on changes)
+- `npm start` - Start production server
 
-Backend (server/):
+## Project Structure
 
-`npm run dev` - Start with nodemon (auto-restart)
-`npm start` - Start production server
+```
+CodeClash/
+├── client/          # React frontend application
+├── server/          # Express backend application
+├── package.json     # Root package configuration
+└── README.md        # Project documentation
+```
+
+## Contributing
+
+We welcome contributions to CodeClash. Please ensure all code follows the established patterns and includes appropriate testing.
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Support
+
+For questions, issues, or feature requests, please open an issue on the GitHub repository.
