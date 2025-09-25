@@ -1,7 +1,7 @@
 /**
  * Enhanced Corporate Sponsor Dashboard with Real Company Logos
  * File: client/src/components/CorporateSponsorDashboard.jsx
- * Shows all major tech companies with actual logos and back button functionality
+ * Shows all major tech companies with actual logos & back button functionality
  */
 import React, { useState } from 'react';
 import { 
