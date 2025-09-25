@@ -6,7 +6,7 @@ const GoogleAuthButton = ({ onSuccess, onError, disabled = false }) => {
   const [googleLoaded, setGoogleLoaded] = useState(false);
 
   useEffect(() => {
-    // Load Google Identity Services script
+    // Load Google Identity Services scripts
     const script = document.createElement('script');
     script.src = 'https://accounts.google.com/gsi/client';
     script.async = true;
