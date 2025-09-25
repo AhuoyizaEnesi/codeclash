@@ -1,7 +1,7 @@
 /**
  * Professional Gaming Battle Arena UI
  * File: client/src/pages/BattleArena.jsx
- * Esports-grade competitive programming interface
+ * Esports-grade competitive programming interfaces
  */
 import React, { useState, useEffect } from 'react'; 
 
