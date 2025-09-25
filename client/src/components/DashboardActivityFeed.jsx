@@ -1,3 +1,5 @@
+// mock activities
+
 import React, { useState, useEffect } from 'react';
 import { 
   Trophy, Zap, Users, Crown, Medal, Swords, 
