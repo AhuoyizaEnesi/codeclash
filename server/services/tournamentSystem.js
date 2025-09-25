@@ -1,5 +1,5 @@
 /**
- * Tournaments Page
+ * Tournaments Pages
  * File: client/src/pages/tournaments/Tournaments.jsx
  * Updated for Season 2025 with enhanced features
  */
