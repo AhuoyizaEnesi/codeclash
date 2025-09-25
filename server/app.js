@@ -12,7 +12,7 @@ app.use(cors({
   credentials: true
 }));
 
-// Body parsing middleware
+// Body parsing middlewares
 app.use(express.json());
 
 // Request logging
