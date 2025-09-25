@@ -12,7 +12,7 @@ function MatchRoom() {
 
         /**
          * Sends a join_match signal to the backend, showing that the user with 'username' has joined a match
-         * Whenever we get a "start_game" signal from the backend we then show it to the user in the Match Room
+         * Whenever we get a "start_game" signal from the backend we then show it to the user in Match Room
          */
         socket.emit("join_match", {matchCode, username});
         socket.on("start_game", ({problem}) => {
