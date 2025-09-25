@@ -1,5 +1,5 @@
 /**
- * Main Dashboard
+ * Main Dashboard ui
  * File: client/src/pages/Dashboard.jsx
  * Central hub for all CodeClash features - Updated to receive hardcoded victory values
  */
