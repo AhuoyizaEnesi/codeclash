@@ -1,3 +1,4 @@
+// adds users
 const sequelize = require('./database');
 const User = require('./user');
 
