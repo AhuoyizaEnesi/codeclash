@@ -1,3 +1,5 @@
+// store data
+
 import React, { useState } from 'react';
 import { ChevronLeft, ChevronRight, User, Code, Target, Check } from 'lucide-react';
 import Avatar from '../components/ui/Avatar';
