@@ -1,5 +1,5 @@
 /**
- * Prize Pool Management Service
+ * Prize Pool Management Services
  * Handles tournament prize distributions, cash payouts, and sponsor contributions
  * Integrates with payment processors for real money transactions
  */
