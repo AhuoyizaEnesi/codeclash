@@ -1,7 +1,7 @@
 /**
  * Fixed Tournament API Routes
  * File: server/routes/tournamentRoutes.js
- * RESTful API endpoints for tournament management and elite competitions
+ * RESTful API endpoints for tournament management & elite competitions
  */
 
 const express = require('express');
