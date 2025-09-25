@@ -1,7 +1,7 @@
 /**
  * Main Application Component
  * File: client/src/App.jsx
- * Fixed routing system with hardcoded starting values
+ * Fixed routing system with hardcoded starting value
  */
 import React, { useState, useEffect } from 'react';
 import LandingPage from './pages/LandingPage';
