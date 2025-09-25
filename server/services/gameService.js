@@ -1,3 +1,5 @@
+// full game room service
+
 const problemUtils = require('../utils/problemUtils');
 const authService = require('./authService');
 const demoUsersService = require('./demoUsersService');
