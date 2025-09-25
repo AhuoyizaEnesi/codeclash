@@ -5,7 +5,7 @@
  * - creating or updating a user from google OAuth login
  * - Updating user preferences
  * - Tracking user stats like wins, losses, and matches played
- * - Retrieving user data for profile views
+ * - Retrieving user data for profile view
  * authentication is handled in authRoutes.js
  */
 
