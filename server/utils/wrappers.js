@@ -1,3 +1,5 @@
+// check test cases
+
 function _buildArrayWrapper(userCode, testCases) {
   const testRunner = `
 function arraysEqual(a, b) {
