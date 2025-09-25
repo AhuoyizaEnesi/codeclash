@@ -1,3 +1,5 @@
+// problem logic
+
 const { DataTypes } = require('sequelize');
 const sequelize = require('../models/database');
 
