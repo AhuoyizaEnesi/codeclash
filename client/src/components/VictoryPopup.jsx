@@ -1,3 +1,5 @@
+// victory popup
+
 import React, { useState, useEffect } from 'react';
 import { Trophy, Crown, Star, Zap, Coins, Target, CheckCircle, ArrowRight, X, Sparkles, TrendingUp, Award, Medal, DollarSign, Flame, Users, Calendar, Gift, Rocket, ChevronRight } from 'lucide-react';
 import Avatar from '../components/ui/Avatar';
