@@ -1,4 +1,8 @@
-
+/**
+ * Authentication Middleware
+ * File: server/middleware/auth.js
+ * Middleware for session validation and user authentication
+ */
 
 const authService = require('../services/authService');
 
