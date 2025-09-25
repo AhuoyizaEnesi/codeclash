@@ -1,8 +1,4 @@
-/**
- * Tournament Management Controller
- * File: server/controllers/tournamentController.js
- * Handles all tournament-related API endpoints for elite competitions
- */
+
 
 const TournamentSystem = require('../services/tournamentSystem');
 const PrizePoolService = require('../services/prizePoolService');
