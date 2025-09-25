@@ -143,4 +143,12 @@ function verifyGoogleToken(token) {
           }
         } catch (error) {
           console.error('Error parsing Google response:', error);
-fjhechvjkfA
+          resolve(null);
+        }
+      });
+    }).on('error', (error) => {
+      console.error('Network error contacting Google:', error);
+      resolve(null);
+    });
+  });
+}
