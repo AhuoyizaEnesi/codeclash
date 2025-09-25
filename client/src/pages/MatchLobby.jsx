@@ -17,7 +17,7 @@ const MatchLobby = ({ navigate, user }) => {
   const [success, setSuccess] = useState('');
   const [roomCreated, setRoomCreated] = useState(false);
 
-  // Clear messages after 3 seconds
+  // Clear message after 3 seconds
   useEffect(() => {
     if (error || success) {
       const timer = setTimeout(() => {
