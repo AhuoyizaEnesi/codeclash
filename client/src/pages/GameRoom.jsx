@@ -1,3 +1,5 @@
+// set classes
+
 import React, { useState, useEffect, useRef } from 'react';
 import { ArrowLeft, Play, Send, Clock, User, CheckCircle, XCircle, Code, MessageCircle, Trophy, Target, Zap, Settings, Copy, RotateCcw, Download, Users, Crown, Wifi, WifiOff, Swords, Monitor, Activity } from 'lucide-react';
 import VictoryPopup from '../components/VictoryPopup'; 
