@@ -1,3 +1,4 @@
+// room codes
 const validateRoomCode = (roomCode) => {
   if (!roomCode) {
     return {
