@@ -1,5 +1,5 @@
 /**
- * Tournaments Page - Season 2025
+ * Tournament Page - Season 2025
  * File: client/src/pages/Tournaments.jsx
  */
 import React, { useState } from 'react';
