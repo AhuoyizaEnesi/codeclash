@@ -5,7 +5,7 @@ const CodeClashLanding = ({ navigate, user }) => {
   const [liveCount, setLiveCount] = useState(247);
   const [isVisible, setIsVisible] = useState(false);
 
-  // Animate live count
+  // Animate live counts
   useEffect(() => {
     const interval = setInterval(() => {
       setLiveCount(prev => prev + Math.floor(Math.random() * 3) - 1);
