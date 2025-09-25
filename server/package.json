@@ -1,7 +1,7 @@
 {
   "name": "codeclash-server",
   "version": "1.0.0",
-  "description": "CodeClash Backend - Real-time competitive coding platform",
+  "description": "CodeClash Backend - Real time competitive coding platform",
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
