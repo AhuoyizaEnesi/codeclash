@@ -8,7 +8,7 @@
  * - testCases (text, JSON string of test cases for the problem)
  * - starterCode (JSON, for different languages)
  * - time limit (integer, time limit for the problem in seconds)
- * - memory limit (integer, memory limit for the problem in MB)
+ * - memory limit (integer, memory limit for the problem in MegaBytes)
  */
 
 
