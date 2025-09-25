@@ -9,7 +9,7 @@ const Login = ({ navigate, onLogin }) => {
     console.log('Google login successful:', user);
     
     try {
-      // Call the parent's onLogin function (App.jsx handles navigation)
+      // Call the parent's onLogin function (App.jsx handles navigations)
       onLogin(user);
       console.log('User logged in successfully');
     } catch (error) {
