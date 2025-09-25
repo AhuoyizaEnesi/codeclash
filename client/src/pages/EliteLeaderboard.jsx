@@ -1,7 +1,7 @@
 /**
  * Elite Leaderboard Page
  * File: client/src/pages/EliteLeaderboard.jsx
- * Professional rankings with cash prizes
+ * Professional rankings with cash prize
  */
 
 import React, { useState } from 'react';
