@@ -1,5 +1,5 @@
 /**
- * Fixed Payment Processing Service
+ * Fixed Payment Processing Services
  * File: server/services/paymentProcessingService.js
  * Handles secure financial transactions with proper error handling and validation
  */
