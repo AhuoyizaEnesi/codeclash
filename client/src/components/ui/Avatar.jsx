@@ -1,3 +1,5 @@
+// describe avatar
+
 import React from 'react';
 
 const Avatar = ({ theme, color, size = 'md', className = '' }) => {
