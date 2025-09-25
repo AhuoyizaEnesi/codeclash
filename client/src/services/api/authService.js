@@ -1,7 +1,7 @@
 /**
  * Authentication Service  
  * File: client/src/services/api/authService.js
- * Works with your existing GoogleAuthButton component
+ * Works with your existing GoogleAuthButton components
  */
 
 class AuthService {
