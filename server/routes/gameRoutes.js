@@ -1,3 +1,4 @@
+// set game route
 const express = require('express');
 const router = express.Router();
 const gameService = require('../services/gameService');
