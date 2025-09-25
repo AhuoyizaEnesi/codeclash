@@ -7,7 +7,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        // CodeClash brand colors
+        // CodeClash brand color
         primary: {
           50: '#eff6ff',
           100: '#dbeafe',
